@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="dict.email_context_list" />
+          <option value="dict.email_dispatch_type" />
+          <option value="dict.event_type" />
+          <option value="dict.cc_emails" />
+          <option value="dict.bcc_emails" />
+          <option value="dict.extra_context" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
