@@ -17,10 +17,7 @@ class GraduationCeremonySolution:
         dp = [1 for _ in range(self.allowed_limit + 1)]
         temp = [0 for _ in range(self.allowed_limit + 1)]
         dp[self.allowed_limit] = 0
-
         for i in range(1, self.no_of_days + 1):
-            for index in range(self.allowed_limit+1):
-                temp[index] = 0
             for j in range(self.allowed_limit):
                 temp[j] = dp[0] + dp[j + 1]
             temp, dp = dp, temp
