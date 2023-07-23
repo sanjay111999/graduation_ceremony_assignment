@@ -22,3 +22,10 @@ Test cases:
 
 for 5 days: 14/29  
 for 10 days: 372/773
+
+### How to run ?
+
+To run the assignment execute following command:
+```
+python main.py
+```
